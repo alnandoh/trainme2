@@ -1,0 +1,142 @@
+body{
+    font-family: "Poppins",sans-serif;
+    margin: 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+section p{
+    width: 600px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    padding: 16px 60px;
+    background: #BEADFA;
+    border-bottom: 2px solid black;
+}
+
+h2{
+    font-size: 54px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+}
+
+.about{
+    background: #8E8FFA;
+}
+
+.quote{
+    background: rgb(11,11,11);
+    font-style: italic;
+}
+.quote>p{
+    font-size: 54px;
+    font-style: italic;
+    color: white;
+}
+
+.review{
+    background: #C780FA;
+}
+
+.container {
+	max-width: 1440px;
+	margin: auto;
+}
+
+.header-link-text {
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.searchBar{
+    width: 200px;
+    position: relative;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 3px solid black;
+    border-left: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    color: black;
+}
+.searchTerm:focus{
+    color: #00B4CC;
+}
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 3px solid black;
+    background: white;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+}  
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+	flex: 1;
+    background: white;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.card img{
+    margin: 20px;
+}
+
+.card-details{
+    margin-inline: 30px;
+    margin-bottom: 25px;
+}
+
+.card-name{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.justify-between {
+	justify-content: space-between;
+	align-items: center;
+}
+.center {
+	text-align: center;
+}
+.white {
+	color: white;
+}
